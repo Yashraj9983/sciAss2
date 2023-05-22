@@ -21,7 +21,7 @@ color: #273464;}
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 800;
-    font-size: 4em;
+    font-size: 3.3em;
     
     color: #273464;} 
 .font4{
@@ -31,7 +31,9 @@ color: #273464;}
     font-weight: 400;
     font-size: 1.2em;
     padding: 50px 0;
-    color: #88b;}        
+    color: #88b;
+    max-width: 600px;
+}        
 .pg1{
     position: relative;
     background-color: #f7f7ff;
@@ -42,5 +44,44 @@ color: #273464;}
 .pg2{
     position: relative;
     
-    height: 100vh;
+    height: 100%;
 }    
+.button1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    text-align: center;
+    color: #273464;
+    max-width: 150px;
+    width: 150px;
+    height: 100%;
+    background-color: #f7f7ff;
+    margin-right:6%;
+    margin-bottom: 15px;
+    border: solid 1px #273464;
+    border-radius: 12px;
+}
+.button2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+    max-width: 150px;
+    margin-bottom: 30px;
+    width: 150px;
+    height: 100%;
+    background-color: #63f;
+    border: solid 1px #63f;
+    border-radius: 12px;
+}
+.card1{
+    position: relative;
+    max-width:500px;
+    width:500px;
+    height: 800px;
+    background-color: white;
+    margin: 2% 5%;
+}
