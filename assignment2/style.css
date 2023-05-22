@@ -89,7 +89,7 @@ a.login {
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
+  background-color: #63f;
   color: white;
 }
 .topnav a, .dropdown .dropbtn {
@@ -138,6 +138,9 @@ a.signup {
     float: none;
     display: block;
     text-align: left;
+    margin: 0px;
+    border: none;
+    border-radius: 0px;
   }
   a.signup{
     float: none;
@@ -145,6 +148,9 @@ a.signup {
     text-align: left;
     background-color: #f7f7ff;
     color: #273464;
+    margin: 0px;
+    border: none;
+    border-radius: 0px;
   }
   .topnav.responsive {position: relative;
     z-index: 1;    

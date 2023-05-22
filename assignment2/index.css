@@ -72,9 +72,22 @@ color: #273464;}
     max-width: 150px;
     margin-bottom: 30px;
     width: 150px;
-    height: 100%;
+    height: 60px;
     background-color: #63f;
     border: solid 1px #63f;
+    border-radius: 12px;
+}
+.button1:hover {
+    cursor: pointer;
+    background-color: #63f;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.button2:hover div{
+    cursor: pointer;
+    background-color: #fff;
+    color: #63f;
     border-radius: 12px;
 }
 .card1{
