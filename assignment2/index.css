@@ -1,0 +1,46 @@
+.font1{
+position: relative;
+
+font-family: 'Laila';
+font-style: normal;
+font-weight: 700;
+font-size: 2em;
+
+color: #273464;}
+.font2{
+    position: relative;
+    
+    font-family: 'Laila';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.3em;
+    
+    color: #273464;}
+.font3{
+    position: relative;        
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4em;
+    
+    color: #273464;} 
+.font4{
+    position: relative;        
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 50px 0;
+    color: #88b;}        
+.pg1{
+    position: relative;
+    background-color: #f7f7ff;
+    height: 100%;
+    
+    
+}    
+.pg2{
+    position: relative;
+    
+    height: 100vh;
+}    
