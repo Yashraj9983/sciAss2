@@ -1,0 +1,172 @@
+.font1{
+position: relative;
+
+font-family: 'Laila';
+font-style: normal;
+font-weight: 700;
+font-size: 2em;
+
+color: #273464;}
+.font2{
+    position: relative;
+    
+    font-family: 'Laila';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.3em;
+    
+    color: #273464;}
+.font3{
+    position: relative;        
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.3em;
+    
+    color: #273464;} 
+.font4{
+    position: relative;        
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 50px 0;
+    color: #88b;
+    max-width: 600px;
+}        
+.font5{
+    position: relative;
+
+font-family: 'Laila';
+font-style: normal;
+font-weight: 700;
+font-size: 2em;
+
+color: #273464;
+}
+@media all and (min-width: 100px)   {  .font5  { font-size:1em;  } }
+@media all and (min-width: 480px)  {  .font5  { font-size:1.5em;  } }
+@media all and (min-width: 700px)  {  .font5  { font-size:2em;  } }
+
+.font6{
+    position: relative;
+
+font-family: 'Laila';
+font-style: normal;
+font-weight: 700;
+font-size: 1.7em;
+
+color: #273464;
+}
+@media all and (min-width: 100px)   {  .font6  { font-size:0.5em;  } }
+@media all and (min-width: 250px)   {  .font6  { font-size:0.7em;  } }
+@media all and (min-width: 410px)   {  .font6  { font-size:0.9em;  } }
+@media all and (min-width: 480px)  {  .font6  { font-size:1.2em;  } }
+@media all and (min-width: 700px)  {  .font6  { font-size:1.7em;  } }
+
+
+.submit2{
+    position: relative;
+    
+    font-family: 'Laila';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1em;
+    background-color:#273464;
+    text-align: center;
+    padding: 1px 10px;
+    border-radius: 15px;
+    color: white;
+}
+@media all and (min-width: 100px)   {  .submit2  { font-size:0.5em;  } }
+@media all and (min-width: 350px)   {  .submit2  { font-size:0.7em;  } }
+@media all and (min-width: 540px)   {  .submit2  { font-size:1em;  } }
+
+.pg1{
+    
+    background-color: #f7f7ff;
+    height: 100%; 
+    z-index: 0;   
+    
+}    
+.pg2{
+    position: relative;
+    
+    height: 100%;
+}    
+.button1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    text-align: center;
+    color: #273464;
+    max-width: 150px;
+    width: 150px;
+    height: 100%;
+    background-color: #f7f7ff;
+    margin-right:6%;
+    margin-bottom: 15px;
+    border: solid 1px #273464;
+    border-radius: 12px;
+}
+.button2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+    max-width: 150px;
+    margin-bottom: 30px;
+    width: 150px;
+    height: 60px;
+    background-color: #63f;
+    border: solid 1px #63f;
+    border-radius: 12px;
+}
+.button1:hover {
+    cursor: pointer;
+    background-color: #63f;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.button2:hover div{
+    cursor: pointer;
+    background-color: #fff;
+    color: #63f;
+    border-radius: 12px;
+}
+.card1{
+    position: relative;
+    max-width:500px;
+    width:500px;
+    height: 800px;
+    background-color: white;
+    margin: 2% 5%;
+}
+.socialMedia{
+    position: -webkit-sticky;
+    position: sticky;    
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 10px #ccc;
+    left: 95%;
+    font-family: 'Laila';
+font-style: normal;
+font-weight: 700;
+font-size: 1.7em;
+    z-index: 12;
+    top:40%;
+    height: 50px;
+    width:50px;
+}
+.socialMedia:hover div{
+    
+    cursor: pointer;
+}
+body{
+    top:-50px;
+    position: relative;
+}
