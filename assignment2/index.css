@@ -47,6 +47,24 @@ color: #273464;
 @media all and (min-width: 100px)   {  .font5  { font-size:1em;  } }
 @media all and (min-width: 480px)  {  .font5  { font-size:1.5em;  } }
 @media all and (min-width: 700px)  {  .font5  { font-size:2em;  } }
+
+.font6{
+    position: relative;
+
+font-family: 'Laila';
+font-style: normal;
+font-weight: 700;
+font-size: 1.7em;
+
+color: #273464;
+}
+@media all and (min-width: 100px)   {  .font6  { font-size:0.5em;  } }
+@media all and (min-width: 250px)   {  .font6  { font-size:0.7em;  } }
+@media all and (min-width: 410px)   {  .font6  { font-size:0.9em;  } }
+@media all and (min-width: 480px)  {  .font6  { font-size:1.2em;  } }
+@media all and (min-width: 700px)  {  .font6  { font-size:1.7em;  } }
+
+
 .submit2{
     position: relative;
     
@@ -60,11 +78,15 @@ color: #273464;
     border-radius: 15px;
     color: white;
 }
+@media all and (min-width: 100px)   {  .submit2  { font-size:0.5em;  } }
+@media all and (min-width: 350px)   {  .submit2  { font-size:0.7em;  } }
+@media all and (min-width: 540px)   {  .submit2  { font-size:1em;  } }
+
 .pg1{
-    position: relative;
-    background-color: #f7f7ff;
-    height: 100%;
     
+    background-color: #f7f7ff;
+    height: 100%; 
+    z-index: 0;   
     
 }    
 .pg2{
@@ -123,4 +145,28 @@ color: #273464;
     height: 800px;
     background-color: white;
     margin: 2% 5%;
+}
+.socialMedia{
+    position: -webkit-sticky;
+    position: sticky;    
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 10px #ccc;
+    left: 95%;
+    font-family: 'Laila';
+font-style: normal;
+font-weight: 700;
+font-size: 1.7em;
+    z-index: 12;
+    top:40%;
+    height: 50px;
+    width:50px;
+}
+.socialMedia:hover div{
+    
+    cursor: pointer;
+}
+body{
+    top:-50px;
+    position: relative;
 }
